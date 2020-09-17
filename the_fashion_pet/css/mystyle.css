@@ -1,0 +1,115 @@
+:root {
+    --primaryColor: rgb(158, 129, 92);
+    --primaryDark: #000;
+}
+
+.btn-success {
+    background-color: #2acf82;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: rgb(92, 163, 130);
+}
+
+.pet {
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+#petSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.totals {
+    display: block;
+    border: 1px dashed black;
+    width: 10rem;
+}
+
+header {
+    text-align: center;
+    position: relative;
+}
+
+section.totals {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 2rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.bg-gray0 {
+    background-color: #f8f8f8;
+}
+
+.firstDiv {
+    padding: 1rem 0;
+}
+
+main.container {
+    margin-top: 2rem;
+}
+
+h1, h2, h3, h4, h5 {
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+
+main h2 {
+    margin: 1rem 0 0 1rem;
+    font-size: 1.6rem;
+}
+
+input[type="button"] {
+    margin: 0 auto;
+    display: block;
+}
+
+i {
+    text-align: center;
+    width: 100%;
+    color: lightblue;
+    margin: 1rem 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+#mainJT {
+    background-image: url(../img/pet02.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+a {
+    color: var(--primaryColor);
+    border-bottom: 1px solid transparent; 
+}
+
+a:hover {
+    color: var(--primaryDark);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--primaryDark); 
+}
+
+#serviceList h5 {
+    color: var(--primaryColor);
+}
+
+a.selected {
+    border-bottom: 1px solid var(--primaryColor);
+}
